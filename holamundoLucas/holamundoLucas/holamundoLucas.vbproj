@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D1F2794D-097E-4412-A15E-FD35B09ACB10}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>holamundoLucas.Module1</StartupObject>
+    <StartupObject>holamundoLucas.HolaMundo</StartupObject>
     <RootNamespace>holamundoLucas</RootNamespace>
     <AssemblyName>holamundoLucas</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,7 +68,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="HolaMundo.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
